@@ -27,9 +27,9 @@ From here the app is running. CLick "Get Started" to go to the note taking page 
 ---
 ## Usage
 
-![Usage 1](/images/noteTakerIndex.png "Index Screen Shot")*Index of Note Taker*
+![Usage 1](./images/noteTakerIndex.png "Index Screen Shot")*Index of Note Taker*
 
-![Usage 2](/images/noteTakerNotes.png "Notes Screen Shot")*Add or delete notes*
+![Usage 2](./images/noteTakerNotes.png "Notes Screen Shot")*Add or delete notes*
 
 
 ---
