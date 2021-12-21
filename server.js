@@ -7,11 +7,11 @@ const html = require("./routes/htmlRoutes");
 
 const PORT = process.env.PORT || 3001;
 
-// middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
+// defines routes to api and html
 app.use("/api", apiRoutes);
 app.use("/", html);
 

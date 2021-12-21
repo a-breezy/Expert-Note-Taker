@@ -4,10 +4,12 @@ const uuid = require("../../public/assets/js/uuid");
 const fs = require("fs");
 const path = require("path");
 
+// route to get all data from db.json
 router.get("/notes", (req, res) => {
 	res.json(data);
 });
 
+// route to post new data to db.json with a unique ID
 router.post("/notes", (req, res) => {
 	if (!req.body.id) {
 		req.body.id = uuid();
@@ -20,6 +22,7 @@ router.post("/notes", (req, res) => {
 	res.json(req.body);
 });
 
+// route to delete a post based on their ID
 router.delete("/notes/:id", (req, res) => {
 	let index = data
 		.filter((x) => {
